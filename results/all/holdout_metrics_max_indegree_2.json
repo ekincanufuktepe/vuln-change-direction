@@ -1,0 +1,48 @@
+{
+  "accuracy": 0.6430594900849859,
+  "brier": 0.1965738694794233,
+  "calibration": [
+    {
+      "mean_predicted": 0.1211562115621159,
+      "observed_fraction": 0.1259259259259259
+    },
+    {
+      "mean_predicted": 0.5,
+      "observed_fraction": 0.498812351543943
+    },
+    {
+      "mean_predicted": 0.5341880341880342,
+      "observed_fraction": 0.5
+    },
+    {
+      "mean_predicted": 0.8739237392373944,
+      "observed_fraction": 0.8695652173913043
+    }
+  ],
+  "confusion_matrix": {
+    "fn": 17,
+    "fp": 235,
+    "tn": 118,
+    "tp": 336
+  },
+  "f1": 0.7272727272727273,
+  "features_used": 195,
+  "isolated_nodes_with_marginal_cpds": [
+    "CT__MOVE_TREE_FOREACH_BLOCK"
+  ],
+  "log_loss": 0.5732703689827826,
+  "outcome_parents": [
+    "CT__DELETE_NODE_IF_BLOCK",
+    "CT__INSERT_NODE_IF_BLOCK"
+  ],
+  "pr_auc": 0.6840240951744723,
+  "precision": 0.5884413309982487,
+  "recall": 0.9518413597733711,
+  "roc_auc": 0.7319696009116516,
+  "split_group": "project",
+  "test_groups": 72,
+  "test_samples": 706,
+  "train_groups": 287,
+  "train_samples": 1092,
+  "warning": "Synthetic inverse performance does not establish validity on naturally authored inducing commits."
+}

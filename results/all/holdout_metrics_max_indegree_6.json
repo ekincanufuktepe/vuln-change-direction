@@ -1,0 +1,57 @@
+{
+  "accuracy": 0.7025495750708215,
+  "brier": 0.18290347889715017,
+  "calibration": [
+    {
+      "mean_predicted": 0.09031141868512127,
+      "observed_fraction": 0.06779661016949153
+    },
+    {
+      "mean_predicted": 0.36740331491712713,
+      "observed_fraction": 0.5294117647058824
+    },
+    {
+      "mean_predicted": 0.4422315397158155,
+      "observed_fraction": 0.4396551724137931
+    },
+    {
+      "mean_predicted": 0.5443475788875202,
+      "observed_fraction": 0.5
+    },
+    {
+      "mean_predicted": 0.7487462387161494,
+      "observed_fraction": 0.7808219178082192
+    },
+    {
+      "mean_predicted": 0.8725555421307839,
+      "observed_fraction": 0.8695652173913043
+    }
+  ],
+  "confusion_matrix": {
+    "fn": 170,
+    "fp": 40,
+    "tn": 313,
+    "tp": 183
+  },
+  "f1": 0.6354166666666666,
+  "features_used": 195,
+  "isolated_nodes_with_marginal_cpds": [
+    "CT__MOVE_TREE_FOREACH_BLOCK"
+  ],
+  "log_loss": 0.5402100682370252,
+  "outcome_parents": [
+    "CT__DELETE_NODE_IF_BLOCK",
+    "CT__DELETE_NODE_INVOCATION_BLOCK",
+    "CT__INSERT_NODE_IF_BLOCK"
+  ],
+  "pr_auc": 0.7255529186715204,
+  "precision": 0.820627802690583,
+  "recall": 0.5184135977337111,
+  "roc_auc": 0.7722676532192699,
+  "split_group": "project",
+  "test_groups": 72,
+  "test_samples": 706,
+  "train_groups": 287,
+  "train_samples": 1092,
+  "warning": "Synthetic inverse performance does not establish validity on naturally authored inducing commits."
+}
